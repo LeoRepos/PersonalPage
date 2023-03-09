@@ -34,25 +34,15 @@
         </div>        
     </div>    
 </header>
-<section id="slider">
-    <div id="sliders-controls">
-        <div class="slider--control" 
-            onclick="">
-            <img 
-            src="/assets/img/arrow-left-3099.svg"  
-            alt="Voltar">
-        </div>
-        <div class="slider--control" 
-            onclick="">
-            <img 
-            src="/assets/img/arrow-right-3098.svg" 
-            alt="Avançar">
-        </div>
-    </div>    
-    <div id="slider--width">
-        <div class="slider--item"><img src="/assets/img/naruto.jpg" alt=""></div>
-        <div class="slider--item"><img src="/assets/img/naruto-itachi.jpg" alt=""></div>
-        <div class="slider--item"><img src="/assets/img/naruto-itachi.jpg" alt=""></div>
+<section class="slider">
+    <div class="slider--controls">
+        <div class="slider--control"onclick="goPrev()"><img src="/assets/img/arrow-left-3099.svg" alt="Voltar"></div>
+        <div class="slider--control"onclick="goNext()"><img src="/assets/img/arrow-right-3098.svg" alt="Avançar"></div>
+    </div>
+    <div class="slider--width">
+        <div class="slider--item" style="background-image: url('/assets/img/naruto.jpg')"></div>
+        <div class="slider--item" style="background-image: url('/assets/img/naruto-itachi.jpg')"></div>
+        <div class="slider--item" style="background-image: url('/assets/img/naruto-itachi.jpg')"></div>
     </div>
 </section>
     
